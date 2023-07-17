@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #010409;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  /* border: 1px solid black; */
+  
+  max-width: 700px;
+  padding: 2%;
+
+  display: grid;
+  place-items: center;
+
+  background-color: #E6EDF3;
+
+}
+
+.main-text {
+  width: 75%;
+  /* border: 1px solid red; */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  column-gap: 2%;
+  row-gap: 2%;
+
+  padding: 2% 2%;
+}
+
+.images {
+  width: 100%;
+}
